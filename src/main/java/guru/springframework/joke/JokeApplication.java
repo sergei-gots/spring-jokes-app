@@ -1,13 +1,13 @@
-package guru.springframework.joke.jokeapp;
+package guru.springframework.joke;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JokesApplication {
+public class JokeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JokesApplication.class, args);
+		SpringApplication.run(JokeApplication.class, args);
 	}
 
 }
